@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Print name and age by using prompt:</h1>
+	<h3 id="myp"></h3>
+	<script type="text/javascript">
+
+		function hello(name,age) {
+			// body...
+			return name+" is "+age;
+		}
+		var n=prompt("enter your name:");
+		var ag=prompt("enter age:");
+		document.getElementById("myp").innerHTML = hello(n,ag);
+	</script>
+	
+</body>
+</html>
